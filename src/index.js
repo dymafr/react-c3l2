@@ -4,4 +4,9 @@ import { Hello, Greeting } from './Hello';
 
 const root = createRoot(document.getElementById('root'));
 
-root.render(<Hello />);
+root.render(
+  <>
+    <Hello />
+    <Greeting />
+  </>
+);
